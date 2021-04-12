@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Prompt', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table{
+  width: 100%
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  width: minmax(100vh 600px);
+  border: 1px solid rgb(214, 214, 214);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head-box{
+  background-color: rgb(214, 214, 214);
+  padding: 1px;
+  height: 30px;
+  font-weight: bold;
+}
+.head-box p {
+  margin-top: 4px;
+  margin-left: 5px;
+  
+}
+.editinput{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: sienna;
 }
-
-.App-link {
-  color: #61dafb;
+input{
+  width: 100%;
+  font-size: 15px;
+  padding: 8px 8px 8px 8px;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus{
+  box-shadow: 0px 0px 5px 3px rgb(143, 195, 255);
+  
+}
+.btn-sub{
+  background-color: rgb(0, 87, 185);
+  border-radius: 5px;
+  color:white;
+  padding: 8px;
+ 
+}
+.btn-sub:hover{
+  background-color: rgb(5, 121, 253);
+}
+.content{
+  margin: 10px 10px 10px 10px;
+  font-weight: bold;
+  
+}
+td{
+  
+  border-bottom: rgb(214, 214, 214) 1px solid ;
+}
+table p{
+  font-weight: bold;
 }
